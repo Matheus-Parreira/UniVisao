@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - UniVisão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid fw-bold">
+            <a class="navbar-brand" href="index.html" rel="prev" target="_self">UniVisão</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Itens do Menu -->
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" rel="prev" target="_self">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html" rel="next" target="_blank">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html" rel="next" target="_blank">Notícias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contato.html" rel="next" target="_self">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Áreas de Ensino</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="cursos.html#Exatas" rel="next" target="_blank">Exatas</a>
+                            </li>
+                            <li><a class="dropdown-item" href="cursos.html#Humanas" rel="next" target="_blank">Humanas</a>
+                            </li>
+                            <li><a class="dropdown-item" href="cursos.html#Saude" rel="next" target="_blank">Saúde</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container px-3 pt-3 text-start">
+            <div class="row">
+                <div class="col-sm-12 fw-bold">
+                    <h1>Fale Conosco</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form action="#">
+                        <div class="mb-2">
+                            <label for="lblNome" class="form-label fw-bold">Nome completo:</label>
+                            <input type="text" class="form-control" id="lblNome" required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="lbEmail" class="form-label fw-bold">Email:</label>
+                            <input type="email" class="form-control" id="lbEmail" required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="lbTel" class="form-label fw-bold">Telefone:</label>
+                            <input type="tel" class="form-control" id="lbTel" placeholder="(00) 00000-0000" required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="lblCursos" class="form-label fw-bold">Selecione o curso de seu interesse:</label>
+                            <select name="Curso" id="lblCursos" class="form-select">
+                                <option value="" disabled selected>Selecione um curso</option>
+                                <option value="adm">Administração</option>
+                                <option value="dir">Direito</option>
+                                <option value="fisio">Fisioterapia</option>
+                                <option value="engciv">Engenharia Civil</option>
+                                <option value="engcomp">Engenharia da Computação</option>
+                                <option value="engqui">Engenharia Química</option>
+                                <option value="jor">Jornalismo</option>
+                                <option value="odonto">Odontologia</option>
+                                <option value="psico">Psicologia</option>
+                            </select>
+                        </div>
+                        <div class="mb-2">
+                            <label for="lblMensagem" class="form-label fw-bold">Mande sua mensagem para nós!</label>
+                            <br>
+                            <textarea name="mensagem" id="lblMensagem" class="form-control" required maxlength="1000" rows="10"></textarea>
+                        </div>
+                        <div class="pb-3 text-center">
+                            <a href="enviado.html" class="btn btn-dark fw-bold py-2 px-6 text-white">Enviar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bd-footer">
+        <div class="container-fluid bg-dark text-white px-3 pt-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Nosso campus:</h6>
+                    <address>Avenida São Paulo, 213<br>Jd. Santa Rosália, Sorocaba/SP<br>CEP: 18090-190</address>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contato:</h6>
+                    <p><strong>Tel</strong>: 0800-7777777<br><strong>Email</strong>: <a
+                            href="#" class="text-white">contato@univisão.net</a><br><strong><a href="contato.html" rel="next"
+                                target="_self" class="text-white">Fale Conosco</a></strong></p>
+                </div>
+                <div class="col-md-4 fw-bold">
+                    <h6>Nossas Mídias Sociais:</h6>
+                    <p><a href="#" class="text-white">Instagram</a> <a href="#" class="text-white">Facebook</a> <a href="#"
+                            class="text-white">Twitter/X</a> <a href="#" class="text-white">Youtube</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 fw-bold">
+                    <p>&copy;2026, Centro Universitário UniVisão. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

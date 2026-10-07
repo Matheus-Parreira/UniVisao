@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - UniVisão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid fw-bold">
+            <a class="navbar-brand" href="index.html" rel="prev" target="_self">UniVisão</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Itens do Menu -->
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" rel="prev" target="_self">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="cursos.html" rel="next" target="_self">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html" rel="next" target="_blank">Notícias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html" rel="next" target="_blank">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Áreas de Ensino</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="cursos.html#Exatas" rel="next" target="_self">Exatas</a>
+                            </li>
+                            <li><a class="dropdown-item" href="cursos.html#Humanas" rel="next" target="_self">Humanas</a>
+                            </li>
+                            <li><a class="dropdown-item" href="cursos.html#Saude" rel="next" target="_self">Saúde</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container px-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="my-3">Conheça nossos cursos</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" id="Exatas">
+                    <h2>Ciências Exatas</h2>
+                </div>
+            </div>
+            <div class="row mb-3 text-center">
+                <div class="col-lg-4 pb-4">
+                    <div class="card border-dark">
+                        <img src="Imagens/comp-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <div class="card-body">
+                            <h4 class="card-title">Eng. da Computação</h4>
+                            <p class="card-text">Graduação | Presencial | 5 anos</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-dark fw-bold py-2 px-6" data-bs-toggle="modal" data-bs-target="#modalEngComp">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pb-4">
+                    <div class="card border-dark">
+                        <img src="Imagens/eng-quimica-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <div class="card-body">
+                            <h4 class="card-title">Engenharia Química</h4>
+                            <p class="card-text">Graduação | Presencial | 5 anos</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-dark fw-bold py-2 px-6" data-bs-toggle="modal" data-bs-target="#modalEngQui">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pb-4">
+                    <div class="card border-dark">
+                        <img src="Imagens/civil-4-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <div class="card-body">
+                            <h4 class="card-title">Engenharia Civil</h4>
+                            <p class="card-text">Graduação | Presencial | 5 anos</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-dark fw-bold py-2 px-6" data-bs-toggle="modal" data-bs-target="#modalEngCiv">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12" id="Humanas">
+                    <h2>Ciências Humanas</h2>
+                </div>
+            </div>
+            <div class="row mb-3 text-center">
+                <div class="col-lg-4 pb-4">
+                    <div class="card border-dark">
+                        <img src="Imagens/img7-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <div class="card-body">
+                            <h4 class="card-title">Administração</h4>
+                            <p class="card-text">Graduação | Presencial | 4 anos</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-dark fw-bold py-2 px-6" data-bs-toggle="modal" data-bs-target="#modalAdm">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pb-4">
+                    <div class="card border-dark">
+                        <img src="Imagens/direito8-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <div class="card-body">
+                            <h4 class="card-title">Direito</h4>
+                            <p class="card-text">Graduação | Presencial | 5 anos</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-dark fw-bold py-2 px-6" data-bs-toggle="modal" data-bs-target="#modalDir">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pb-4">
+                    <div class="card border-dark">
+                        <img src="Imagens/jor-9-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <div class="card-body">
+                            <h4 class="card-title">Jornalismo</h4>
+                            <p class="card-text">Graduação | Presencial | 4 anos</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-dark fw-bold py-2 px-6" data-bs-toggle="modal" data-bs-target="#modalJor">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12" id="Saude">
+                    <h2>Área da Saúde</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4 pb-4">
+                    <div class="card border-dark">
+                        <img src="Imagens/psico-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <div class="card-body">
+                            <h4 class="card-title">Psicologia</h4>
+                            <p class="card-text">Graduação | Presencial | 5 anos</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-dark fw-bold py-2 px-6" data-bs-toggle="modal" data-bs-target="#modalPsi">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pb-4">
+                    <div class="card border-dark">
+                        <img src="Imagens/odonto-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <div class="card-body">
+                            <h4 class="card-title">Odontologia</h4>
+                            <p class="card-text">Graduação | Presencial | 4 anos</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-dark fw-bold py-2 px-6" data-bs-toggle="modal" data-bs-target="#modalOdonto">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pb-4">
+                    <div class="card border-dark">
+                        <img src="Imagens/fisio-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <div class="card-body">
+                            <h4 class="card-title">Fisioterapia</h4>
+                            <p class="card-text">Graduação | Presencial | 4 anos</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-dark fw-bold py-2 px-6" data-bs-toggle="modal" data-bs-target="#modalFisio">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-sm-12 fw-bold">
+                    <a href="tabelacursos.html" rel="next" target="_blank" class="text-dark">Consultar tabela completa de cursos</a>
+                </div>
+            </div>
+        </div>
+        <div id="modalEngComp" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sobre o curso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagens/comp-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%"/>
+                        <h4 class="mt-2">Engenharia da Computação</h4>
+                        <h6>Graduação | Presencial (Matutino) | 10 semestres (3769 horas)</h6>
+                        <hr>
+                        <p>O curso de Engenharia de Computação foi criado para atender às constantes transformações do mercado e às exigências de formação de profissionais capazes de atuar em um cenário cada vez mais tecnológico e inovador.</p>
+                        <p>Alinhado às evoluções curriculares nacionais, às mudanças nas diretrizes educacionais e ao impacto crescente da Computação na sociedade, o curso prepara engenheiros capazes de desenvolver soluções em hardware e software, integrar sistemas complexos, gerenciar projetos de tecnologia e atuar de forma estratégica em diferentes setores produtivos.</p>
+                        <p>Aqui, a Engenharia de Computação combina sólida formação técnica, prática profissional supervisionada e constante atualização frente aos avanços da área, garantindo excelência acadêmica e empregabilidade em um mercado em rápida transformação.</p>
+                        <h5>Objetivos:</h5>
+                        <ul>
+                            <li>Formar profissionais com visão ampla da sociedade, considerando aspectos humanos, éticos, legais, ambientais e profissionais.</li>
+                            <li>Desenvolver visão crítica e inovadora, capacitando o aluno a propor soluções tecnológicas que melhorem a qualidade de vida e apoiem o crescimento das organizações.</li>
+                            <li>Preparar profissionais para atuar em equipes multidisciplinares, com competência para conceber, especificar, desenvolver, implementar e manter sistemas digitais e computacionais.</li>
+                            <li>Incentivar o empreendedorismo com responsabilidade social, promovendo a criação de empresas e soluções que impulsionam o desenvolvimento regional e global.</li>
+                            <li>Capacitar o uso e a gestão de recursos tecnológicos de forma sustentável e multidisciplinar, alinhando resultados econômicos e ambientais.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalEngQui" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sobre o curso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagens/eng-quimica-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%"/>
+                        <h4 class="mt-2">Engenharia Química</h4>
+                        <h6>Graduação | Presencial (Matutino/Noturno) | 10 semestres (4010 horas)</h6>
+                        <hr>
+                        <p>Ao longo de sua trajetória, o curso de Engenharia Química já formou milhares de profissionais que hoje atuam nas mais variadas áreas e cargos da indústria, se destacando pela infraestrutura, parcerias com instituições públicas e privadas, atividades de extensão e pesquisas que oferecem uma formação completa aos alunos.</p>
+                        <h5>Objetivos:</h5>
+                        <ul>
+                            <li>Formar engenheiros(as) químicos(as) altamente competentes, capazes de integrar fundamentos científicos, visão tecnológica e responsabilidade socioambiental para conceber, otimizar e gerir processos industriais com excelência.</li>
+                            <li>Desenvolver profissionais preparados(as) para atuar de forma estratégica e inovadora, dominando os pilares da Engenharia Química e respondendo com eficiência às demandas da indústria, da pesquisa aplicada e da sociedade, contribuindo para o avanço sustentável e competitivo do setor produtivo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalEngCiv" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sobre o curso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagens/civil-4-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%"/>
+                        <h4 class="mt-2">Engenharia Civil</h4>
+                        <h6>Graduação | Presencial (Matutino/Noturno) | 10 semestres (3921 horas)</h6>
+                        <hr>
+                        <p>O curso de Engenharia Civil tem como propósito formar profissionais qualificados, com uma sólida base científica e técnica, preparados para atuar nas diversas etapas do processo construtivo — desde o planejamento e projeto até a execução e o gerenciamento de obras.</p>
+                        <p>Ao longo da graduação, o aluno desenvolve competências para identificar, formular e solucionar problemas da engenharia civil, sempre com uma visão integrada dos aspectos humanos, econômicos, sociais e ambientais. A formação é orientada por princípios éticos e humanísticos, alinhando-se às necessidades e transformações da sociedade contemporânea.</p>
+                        <h5>Objetivos:</h5>
+                        <ul>
+                            <li>Formar profissionais aptos a atender às exigências de grandes empreendimentos civis e de infraestrutura, com ênfase em setores como o imobiliário, sucroenergético e de energias renováveis.</li>
+                            <li>Capacitar os alunos para gerenciar obras de grande porte, por meio de estudos de viabilidade técnica e econômica, com atenção aos impactos ambientais, controle de custos e uso racional de recursos.</li>
+                            <li>Preparar os alunos para atuarem de forma estratégica e inovadora em diferentes contextos e escalas de projeto.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalAdm" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sobre o curso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagens/img7-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%"/>
+                        <h4 class="mt-2">Administração</h4>
+                        <h6>Graduação | Presencial (Matutino/Noturno) | 8 semestres (3058 horas)</h6>
+                        <hr>
+                        <p>Ao longo de décadas, nosso curso de Administração formou líderes e executivos que hoje ocupam posições de destaque em empresas e organizações de diferentes setores.</p>
+                        <p>Essa história sólida se renova continuamente, unindo tradição acadêmica e atualização constante para preparar gestores capazes de transformar realidades.</p>
+                        <p>Aqui, o estudante encontra um curso dinâmico, que estimula a visão empreendedora, a criatividade e a capacidade de tomar decisões inteligentes em um mercado em constante mudança.</p>
+                        <h5>Objetivos:</h5>
+                        <ul>
+                            <li>Formar profissionais prontos para construir carreiras de impacto, e se destacarem em qualquer área de gestão.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalDir" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sobre o curso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagens/direito8-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%"/>
+                        <h4 class="mt-2">Direito</h4>
+                        <h6>Graduação | Presencial (Matutino/Noturno) | 10 semestres (4381 horas)</h6>
+                        <hr>
+                        <p>Ao longo de sua trajetória, o curso de Direito acompanhou as transformações da sociedade, conciliando tradição e inovação.</p>
+                        <p>O projeto pedagógico contempla desde os fundamentos filosóficos do Direito, até temas contemporâneos como direito ambiental, agrário e digital, com a utilização de metodologias ativas e estudos de caso desenvolvidos em seus laboratórios.</p>    
+                        <p>Com um corpo docente formado por mestres e doutores, entre acadêmicos dedicados à pesquisa e profissionais atuantes no mercado jurídico, o curso oferece ensino de qualidade, infraestrutura completa e sólida inserção regional e nacional.</p>
+                        <h5>Objetivos:</h5>
+                        <ul>
+                            <li>Formar profissionais com visão generalista e sólida base técnico-jurídica, capacitados a atuar em toda as áreas do conhecimento jurídico, com perspectiva interdisciplinar e compromisso com a ética, a cidadania e as transformações sociais almejadas pela sociedade brasileira.</li>
+                            <li>Preparar os estudantes para uma atuação profissional comprometida com a justiça, a equidade e a solidariedade.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalJor" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sobre o curso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagens/jor-9-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%"/>
+                        <h4 class="mt-2">Jornalismo</h4>
+                        <h6>Graduação | Presencial (Noturno) | 8 semestres (3411 horas)</h6>
+                        <hr>
+                        <p>Integrado ao mercado, o bacharelado em Jornalismo vem formando, ao longo de mais de 50 anos, profissionais que atuam no mercado local, nacional e internacional e mantém-se sintonizado com os contextos sociais, políticos, econômicos, científicos, históricos e culturais.</p>
+                        <h5>Objetivos:</h5>
+                        <p>Formar profissionais:</p>
+                        <ul>
+                            <li>Com competência crítica, reflexiva e técnica — capacitando-os, dessa forma, a atuarem como produtores e difusores de informações e conhecimentos de interesse para a cidadania, em diversos meios de comunicação e ambientes.</li>
+                            <li>Que dominem diferentes plataformas tecnológicas e suas respectivas linguagens.</li>
+                            <li>Que sejam capazes de se inserir em um mercado de trabalho altamente competitivo, variado e dinâmico.</li>
+                            <li>Que sejam comprometidos com os princípios éticos e humanísticos de seu tempo, garantindo assim aos cidadãos o direito de serem informados corretamente.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalPsi" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sobre o curso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagens/psico-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <h4 class="mt-2">Psicologia</h4>
+                        <h6>Graduação | Presencial (Integral) | 10 semestres (4152 horas)</h6>
+                        <hr>
+                        <p>O curso de Psicologia capacita profissionais para atuarem em diversas áreas da profissão.</p>
+                        <p>Com abordagens teóricas e experiências práticas desde os primeiros semestres, o bacharelado busca desenvolver habilidades e competências fundamentais para atender as demandas do mercado de trabalho e da população</p> 
+                        <h5>Objetivos:</h5>
+                        <ul>
+                            <li>Formar profissionais generalistas, pautados por princípios éticos e comprometidos com os fundamentos teóricos, técnicos, científicos e metodológicos da Psicologia.</li>
+                            <li>Produzir e a aplicar o conhecimento psicológico em diversos contextos sociais e culturais, promovendo a compreensão dos processos de subjetivação e das dinâmicas psíquicas implicadas nas relações humanas.</li>
+                            <li>Preparar profissionais aptos a contribuir para a promoção e a manutenção da saúde e da qualidade de vida dos indivíduos, grupos, comunidades e Instituições, além da prevenção e do tratamento de sofrimentos psíquicos — colaborando com processos de transformação social.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalOdonto" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sobre o curso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagens/odonto-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <h4 class="mt-2">Odontologia</h4>
+                        <h6>Graduação | Presencial (Integral) | 8 semestres (4070 horas)</h6>
+                        <hr>
+                        <p>Ao longo de seus mais de 40 anos de trajetória, o curso de Odontologia já formou milhares de cirurgiões-dentistas com sólida base técnico-científica e formação humanística, preparados para atuar com excelência profissional e responsabilidade social.</p>
+                        <h5>Objetivos:</h5>
+                        <ul>
+                            <li>Formar profissionais com competências e habilidades essenciais para a atuação clínica e social, como atenção integral à saúde, tomada de decisões, comunicação eficaz, liderança, gestão e compromisso com a educação permanente.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalFisio" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sobre o curso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagens/fisio-3-1120x600-c-default.jpg" class="card-image-top mx-auto" style="width: 100%" />
+                        <h4 class="mt-2">Fisioterapia</h4>
+                        <h6>Graduação | Presencial (Matutino) | 8 semestres (4398 horas)</h6>
+                        <hr>
+                        <p>O curso de Fisioterapia é referência nacional em qualidade, com mais de 40 anos de tradição e reconhecimento pelos principais rankings do país.</p>
+                        <p>Dispõe de um corpo docente altamente qualificado formado, por 90% de doutores e 10% de mestres na área.</p>
+                        <h5>Objetivos:</h5>
+                        <ul>
+                            <li>Preparar os alunos para atuarem em diferentes especialidades dentro da Fisioterapia, unindo conhecimento científico, inovação e compromisso social.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bd-footer">
+        <div class="container-fluid bg-dark text-white px-3 pt-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Nosso campus:</h6>
+                    <address>Avenida São Paulo, 213<br>Jd. Santa Rosália, Sorocaba/SP<br>CEP: 18090-190</address>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contato:</h6>
+                    <p><strong>Tel</strong>: 0800-7777777<br><strong>Email</strong>: <a href="#"
+                            class="text-white">contato@univisão.net</a><br><strong><a href="contato.html" rel="next"
+                                target="_blank" class="text-white">Fale Conosco</a></strong></p>
+                </div>
+                <div class="col-md-4 fw-bold">
+                    <h6>Nossas Mídias Sociais:</h6>
+                    <p><a href="#" class="text-white">Instagram</a> <a href="#" class="text-white">Facebook</a> <a href="#"
+                            class="text-white">Twitter/X</a> <a href="#" class="text-white">Youtube</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 fw-bold">
+                    <p>&copy;2026, Centro Universitário UniVisão. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
